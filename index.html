@@ -1,19 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Library</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
+<link rel="stylesheet" href="style.css">
 <script src=""></script>
+
 <body>
+    <div class="wrapper">
+        <header>
+            <div class="heading1">
+                <h1>My manga library</h1>
+            </div>
+            <div class="bar">
+                <form>
+                    <input type="text" placeholder="Filter manga by title or author...">
+                </form>
+                <form>
+                    <label for="sort">Sort by:</label>
+                    <select name="sort">
+                        <option value="newest">newest</option>
+                        <option value="oldest">oldest</option>
+                        <option value="a-z">a-z</option>
+                        <option value="z-a">z-a</option>
+                    </select>
+                </form>
+                <form id="read-filter">
+                    <div>view:</div>
+                    <input type="radio" name="all" value="all" checked="checked">
+                    <label for="all">all</label>
+                    <input type="radio" name="read" value="read">
+                    <label for="read">read</label>
+                    <input type="radio" name="not-read" value="not-read">
+                    <label for="not-read">not read</label>
+                </form>
+            </div>
+        </header>
+        <main>
+            <div class="books">
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+                <div class="book">
+                    <img src="https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx104241-221zPt7Gpr5K.png"
+                        alt="" />
+                </div>
+            </div>
+        </main>
 
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
-</div>
-
+    </div>
 </body>
+
 </html>
